@@ -1,0 +1,5 @@
+<div>
+  <label> Mesage: <input type="text" [(ngModel)]="message" /> </label>
+  Your Message is: {{ message | titlecase }} <br> Price: {{ price | currency:'INR'}} <br> my Object:
+  {{ myObject | json}} <br> Today is: {{ today | date: 'longDate'}}
+</div>
