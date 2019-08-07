@@ -21,4 +21,4 @@ import { PipedemoComponent } from './components/pipedemo/pipedemo.component';
   providers: [ActorService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {  }
